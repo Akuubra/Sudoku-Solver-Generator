@@ -51,17 +51,6 @@ static bool existsInBox(int i, int j)
     int temp[size*size];
 
 }
-/*static int inRow(int rowIndex, int number)
-{
-    for(int i = 0; i < height; i++)
-    {
-        if(number == sudoku[rowIndex][i])
-        {
-            return false;
-        }
-    }
-    return true;
-}*/
 
 static void findRootSudoku()
 {
@@ -116,6 +105,17 @@ static void bruteSudoku()
 //increment k and j
 //else
 //while k exists increment k but no j
+
+static void shuffleSudoku()
+{
+
+}
+
+static void backtrackSudoku()
+{
+
+}
+
 
 static void printSudoku()
 {
